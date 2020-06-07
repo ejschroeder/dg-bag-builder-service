@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      database: dgBagCheck
+  security:
+    basic:
+      enabled: false
+
+---
+spring:
+  profiles: prod
+
+#spring.data.mongodb.authentication-database=admin
+#spring.data.mongodb.database=Books
+##replace with your mongodb host
+#spring.data.mongodb.host=127.0.0.1
+#spring.data.mongodb.port=27017
+##replace with your username & password
+#spring.data.mongodb.username=springboot
+#spring.data.mongodb.password=spring
